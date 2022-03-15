@@ -66,7 +66,6 @@ const myIterable = {
         typeof (firstValue || secondValue) !== 'number'
       );
     }
-
     if (dataValidator(this.from, this.to)) {
       throw ERROR_MESSAGE;
     } else {
